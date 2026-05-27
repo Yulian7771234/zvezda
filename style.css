@@ -600,3 +600,13 @@ body::after {
         height: 140px;
     }
 }
+.contact-link {
+    color: #ffd966;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
