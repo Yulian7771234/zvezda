@@ -42,7 +42,7 @@ function initServices() {
     cards.forEach(card => {
         card.addEventListener('click', () => {
             const serviceName = card.getAttribute('data-service') || card.querySelector('h3')?.innerText || 'услуга';
-            alert(`✨ Благодарю за интерес к услуге «${serviceName}». Напишите мне в Telegram для записи. ✨`);
+            alert(`✨ Благодарю за интерес к услуге «${serviceName}». Напишите мне в MAX для записи. ✨`);
         });
     });
 }
