@@ -391,18 +391,24 @@ body::after {
 }
 
 .contact-info,
-.contact-form {
-    flex: 1;
+/* Центрированные контакты (без формы) */
+.contact-info-centered {
+    text-align: center;
     background: rgba(0, 0, 0, 0.7);
-    border-radius: 32px;
-    padding: 30px;
+    border-radius: 48px;
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 217, 102, 0.3);
 }
 
-.contact-info p {
+.contact-info-centered p {
     margin: 18px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .contact-form input,
