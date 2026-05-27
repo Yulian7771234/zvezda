@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Ленорман · Звёздное пророчество</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="burger-menu" id="burgerMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <i class="fas fa-moon"></i>
+                <span>Ленорман</span>
+            </div>
+            <nav class="main-nav" id="mainNav">
+                <a href="#services">Услуги</a>
+                <a href="#about">О себе</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <h1>Карты Ленорман</h1>
+                <p>Предсказания, что зажгут звёзды в твоей судьбе</p>
+                <div id="cardPreview" class="card-preview">
+                    <div class="card-placeholder"></div>
+                </div>
+                <button class="fortune-btn" id="fortuneBtn">✨ Вытянуть карту ✨</button>
+            </div>
+        </section>
+
+        <!-- Услуги: только "Общий расклад" -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services-group">
+                    <h3 class="group-title">🌟 Общий расклад</h3>
+                    <div class="services-grid">
+                        <div class="service-card" data-service="Текущая ситуация">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Текущая ситуация</h3>
+                            <p>Срез вашей жизни: что происходит, на что обратить внимание.</p>
+                        </div>
+                        <div class="service-card" data-service="Отношения и чувства">
+                            <i class="fas fa-heart"></i>
+                            <h3>Отношения и чувства</h3>
+                            <p>Чувства партнёра, перспективы пары, причины конфликтов.</p>
+                        </div>
+                        <div class="service-card" data-service="Финансы и карьера">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Финансы и карьера</h3>
+                            <p>Денежный поток, перспективы роста, возможные препятствия.</p>
+                        </div>
+                        <div class="service-card" data-service="Ситуация / вопрос">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>Ситуация / вопрос</h3>
+                            <p>Ответ на конкретный вопрос «что будет», «как поступить».</p>
+                        </div>
+                        <div class="service-card" data-service="Проблема — решение">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Проблема — решение</h3>
+                            <p>Причины сложностей и возможные пути выхода.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="price-note">Стоимость и формат уточняйте в личных сообщениях.</p>
+            </div>
+        </section>
+
+        <!-- Блок "Что я предлагаю" (фото по центру, под ним текст) -->
+        <section class="offer-section">
+            <div class="container offer-container">
+                <div class="avatar-placeholder">
+                    <img src="Pm3kclx3hJ9G6S83hTfvzpHRwl4Pp0r1WRPEoWC5-7S1uUx0EPpeZieoXBfLrg5sBdYZeNvifL6vPbqWMoosXrl7.jpg"
+                        alt="Аватар">
+                </div>
+                <div class="offer-content">
+                    <h2>Что я предлагаю</h2>
+                    <p>Сегодня Оракул Ленорман помогает тысячам людей разобраться в отношениях, деньгах и
+                        предназначении. Я приглашаю вас на консультацию, чтобы мы вместе смогли заглянуть в вашу книгу
+                        судьбы.</p>
+                    <p><strong>Расклады на картах Ленорман:</strong><br>
+                        · Общий расклад — срез вашей жизни на текущий момент.<br>
+                        · Расклад на отношения — чувства партнёра, перспективы пары.<br>
+                        · Расклад на финансы и карьеру — денежный поток, препятствия.<br>
+                        · Расклад на ситуацию / вопрос — ответ на конкретный вопрос.<br>
+                        · Расклад «Проблема — решение» — причины и пути выхода.</p>
+                    <p>Стоимость и формат уточняйте в личных сообщениях.</p>
+                    <p class="invite">Запишитесь на консультацию, и мы откроем тайны, которые скрывают ваши карты. 🤍
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- О себе (два блока: история и путь) -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">История</h2>
+                <div class="about-card">
+                    <div class="about-icon"><i class="fas fa-history"></i></div>
+                    <div class="about-text">
+                        <h3>📜 История гадалки, бросившей вызов судьбе</h3>
+                        <p>Люди издавна пытались приоткрыть завесу будущего. Особую популярность гадальные карты обрели
+                            в эпоху наполеоновских войн — и тогда на авансцену вышла женщина, чье имя стало символом
+                            предсказательного искусства — мадемуазель Мария Анна Аделаида Ленорман.</p>
+                        <p>Мария Ленорман родилась в 1772 году. Её дар проявился ещё в детстве — девочка делала пугающе
+                            точные пророчества. Позже в Париже она открыла собственный салон, где к ней обращались
+                            сильные мира сего: Наполеон, Жозефина, Александр I.</p>
+                        <p><strong>Известные пророчества Марии Ленорман:</strong><br>
+                            · Предсказала молодому офицеру Наполеону императорский трон.<br>
+                            · Предвидела развод Бонапарта с Жозефиной.<br>
+                            · Предсказала гибель французской армии в России в 1812 году.</p>
+                        <p>Именно она создала уникальную систему символов, которая легла в основу современного Оракула
+                            Ленорман.</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon"><i class="fas fa-star-of-life"></i></div>
+                    <div class="about-text">
+                        <h3>✨ Мой путь в мир Ленорман</h3>
+                        <p>Когда я впервые познакомилась с колодой Ленорман и её историей, я почувствовала — это моё.
+                            Меня вдохновила сама Мария Ленорман — женщина, которая верила в свой дар и не боялась
+                            говорить правду.</p>
+                        <p>Со временем я поняла главный секрет: в работе с картами Ленорман нет единственно верной
+                            системы. Здесь важен личный контакт и интуитивное восприятие символов. Ведь сама Мария
+                            Ленорман, помимо карт, использовала астрологию, хиромантию и даже наблюдала за цветами и
+                            запахами, чтобы составить полную картину.</p>
+                        <p>Точность предсказаний зависит не от заученных фраз, а от сонастройки практика с колодой и
+                            доверия к своим ощущениям. Это позволяет не просто назвать событие, а разобрать ситуацию
+                            глубже: помочь понять прошлое, пролить свет на настоящее и выявить скрытые факты, которые
+                            влияют на жизнь.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-wrapper">
+                    <div class="contact-info">
+                        <p><i class="fas fa-user"></i> MAX: +7 (989) 806-79-89</p>
+                        <p><i class="fas fa-user"></i> Telegram: @Sokolovskaya_777</p>
+                        <p><i class="fas fa-envelope"></i> Email: sokolovskaya.valeriya@internet.ru</p>
+                        <p><i class="fas fa-clock"></i> Онлайн 24/7. Ответ в течение часа.</p>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Задать вопрос</h3>
+                        <input type="text" id="contactName" placeholder="Ваше имя" required>
+                        <input type="email" id="contactEmail" placeholder="Email" required>
+                        <textarea id="contactMsg" rows="4" placeholder="Кратко опишите ситуацию..."></textarea>
+                        <button type="submit">Отправить</button>
+                        <div class="form-message" id="contactFormMsg"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Ленорман · Звёздное пророчество. Для совершеннолетних.</p>
+        </div>
+    </footer>
+
+    <div id="predictionModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalPredictionText" class="prediction-text"></div>
+            <button class="modal-close-btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
